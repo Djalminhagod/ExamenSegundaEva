@@ -15,6 +15,7 @@ public class Animal {
 
     }
 
+
     public String getNombre() {
         return nombre;
     }
@@ -42,6 +43,17 @@ public class Animal {
     public void hacerSonido(){
         System.out.println("Animal emite sonido");
     }
+    public static void calcularEdadHumana(int edadAnimal){
+        Animal animal = new Animal();
+        edadAnimal= edadAnimal + animal.edad;
+        int edadHumana= edadAnimal;
+        edadAnimal=edadAnimal*7;
+        System.out.println("la edad humana de "+edadHumana+" en edad animal: "+edadAnimal);
+    }
+
+
+
+
 
     @Override
     public String toString() {

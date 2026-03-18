@@ -12,10 +12,11 @@ public class principal {
         animales.add(new Perro("JOSE",1,"u69","labrador"));
         animales.add(new Gato("iker",1,"u0",false));
         animales.add(new Perro("nico",4,"u67","caniche"));
+
         Refugio.admitirAnimal(animales);
         Refugio.mostrarAnimales(animales);
         Refugio.hacerConcierto(animales);
-
+        Animal.calcularEdadHumana(8);
 
     }
 }
