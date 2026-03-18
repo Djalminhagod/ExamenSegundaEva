@@ -29,6 +29,16 @@ public class Refugio {
             System.out.println("Animal: "+animales.get(i).getNombre()+" "+animales.get(i).getChip()+" "+animales.get(i).getChip());
         }
     }
+    public static void hacerConcierto(ArrayList<Animal> animales) {
+        for (int i = 0; i < animales.size(); i++) {
+            Animal animal = animales.get(i);
+            animal.hacerSonido();
+
+        }
+    }
+    public static void buscarPorEspecie(Animal animalReferencia) {
+        if ()
+    }
 
 
 

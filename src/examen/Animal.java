@@ -51,4 +51,5 @@ public class Animal {
                 ", chip='" + chip + '\'' +
                 '}';
     }
+
 }
