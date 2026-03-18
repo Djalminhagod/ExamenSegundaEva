@@ -3,7 +3,7 @@ package examen;
 import java.util.ArrayList;
 
 public class Refugio {
-    private ArrayList<Animal> animales;
+    private static ArrayList<Animal> animales;
     private static int capacidadMaxima=5;
 
     public Refugio(ArrayList<Animal> animales, int capacidadMaxima) {
